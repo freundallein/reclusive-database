@@ -20,6 +20,6 @@ Also, database supports transactions.
 * ```ROLLBACK``` - rollback last transaction.
 * ```COMMIT``` - apply all transactions changes.
 
-Just print ```python pydb.py``` or ```python pydb.py -t``` for test mode.  
+Just print ```python pydb.py``` for start or ```python pydb.py -t``` for start with test mode.  
 
 Good luck.
