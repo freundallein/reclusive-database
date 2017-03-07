@@ -1,10 +1,10 @@
 # reclusive_database
 
-Little database. 
-Console input\output.
-Uses only RAM.
-One line - one action.
-Python 2.7.
+Little database.   
+Console input\output.  
+Uses only RAM.  
+One line - one action.  
+Python 2.7.  
 
 Commands:
 * ```SET``` - save arg variable with some value.
