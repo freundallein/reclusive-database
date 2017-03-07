@@ -7,7 +7,7 @@ One line - one action.
 Python 2.7.
 
 Commands:
-```SET``` - save arg variable with some value.
+```SET``` - save arg variable with some value.\n
 ```GET``` - return arg variable's value or None.
 ```UNSET``` - delete arg variable.
 ```COUNTS``` - count arg values.
