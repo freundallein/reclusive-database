@@ -108,7 +108,7 @@ class DatabaseManager:
             """Delete result record if variable was unset or set in different transactions."""
             checked_dict = result_dict.copy()
             for key in checked_dict:
-                if checked_dict.get(key) != current_db.get(key) and current_db.get(key) is not None:
+                if checked_dict.get(key) != current_db.get(key) and current_db.get(key, '#') is not '#':
                     del result_dict[key]
 
         accumulation = {}
@@ -133,7 +133,7 @@ class DatabaseManager:
         if len(self.queue) > 1:
             self.queue.pop(len(q.queue) - 1)
         else:
-            print('There is no transaction for rollback.')
+            print 'There is no transaction for rollback.'
 
     def clean(self, db):
         """Cleaning main database from {key: None} pairs."""
