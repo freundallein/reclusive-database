@@ -12,7 +12,7 @@ Commands:
 * ```UNSET``` - delete arg variable.
 * ```COUNTS``` - count arg values.
 * ```FIND``` - find all variables with arg value.
-* ```END``` - stop program.
+* ```END``` - stop program (or simply hit Enter 2 times in a row).
 
 Also, database supports transactions.
 
