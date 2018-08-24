@@ -1,4 +1,5 @@
 # reclusive_database
+For Dr.Web job application.
 
 Little database.   
 Console input\output.  
